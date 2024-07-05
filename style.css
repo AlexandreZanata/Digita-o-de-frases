@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+.main {
+  text-align: center;
+  padding: 5px;
+  font-size: 2.5em;
+  border: 3px solid rgb(255, 255, 255);
+  width: 99%;;
+}
+
+.typingArea {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  font: normal 28pt Arial;
+  text-align: center;
+}
+
+.btn {
+  width: 20%;
+  outline: none;
+  border: none;
+  font-size: 2.5em;
+  padding: 10px;
+  color: white;
+  background-color: blueviolet;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;  /* Destaca os erros em vermelho */
+}
